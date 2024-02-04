@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anti-Procrastinator</title>
+    
+    <script>
+        function home(){
+           window.open("home.html")
+       }
+      </script>
+      <style>
+        body{
+            background-color: black;
+            
+            background-size: cover;
+           
+            margin: 0;
+            
+            padding: 0;
+        }
+        #anti{
+            text-align: center;
+            padding-top: 100px;
+            font-size: 40px;
+            font-family: verdana;
+            font-style: italic;
+            color: aliceblue;
+        }
+        button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 50px 10px 0 500px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    
+
+}
+        span{
+         background: #D8B5FF;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+img{
+    border-radius: 50%;
+    margin-left: 550px;
+    margin-top: 100px;
+}
+p{
+    padding-top: 100px;
+    text-decoration: underline;
+}
+      </style>
+</head>
+<body>
+   <img src="https://static.vecteezy.com/system/resources/previews/005/376/208/large_2x/tq-logo-tq-letter-logo-design-letter-mark-logo-vector.jpg" width="100px" height="100px">
+   <h1 id="anti">ANTI-PROCRASTINATOR</h1>
+   <button type="button" onclick="home()"><span></span>Let's Start</button>
+   <footer>
+    <p style="color: whitesmoke;" >By Tech Quad</p>
+   </footer>
+</body>
+
+</html>
